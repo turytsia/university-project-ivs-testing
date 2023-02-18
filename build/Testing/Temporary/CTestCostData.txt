@@ -1,46 +1,46 @@
-NonEmptyGraph.nodes 0 0
-NonEmptyGraph.edges 0 0
-NonEmptyGraph.addNode 0 0
-NonEmptyGraph.addEdge 0 0
-NonEmptyGraph.addMultipleEdges 0 0
-NonEmptyGraph.getNode 0 0
-NonEmptyGraph.containsEdge 0 0
-NonEmptyGraph.removeNode 0 0
-NonEmptyGraph.removeEdge 0 0
-NonEmptyGraph.nodeCount 0 0
-NonEmptyGraph.edgeCount 0 0
-NonEmptyGraph.nodeDegree 0 0
-NonEmptyGraph.graphDegree 0 0
-NonEmptyGraph.coloring 0 0
-NonEmptyGraph.clear 55 0.000950769
-EmptyGraph.nodes 55 0.00147392
-EmptyGraph.edges 55 0.00125703
-EmptyGraph.addNode 0 0
-EmptyGraph.addEdge 0 0
-EmptyGraph.addMultipleEdges 0 0
-EmptyGraph.getNode 55 0.000919149
-EmptyGraph.containsEdge 55 0.000932525
-EmptyGraph.removeNode 0 0
-EmptyGraph.removeEdge 0 0
-EmptyGraph.nodeCount 0 0
-EmptyGraph.edgeCount 0 0
-EmptyGraph.nodeDegree 0 0
-EmptyGraph.graphDegree 0 0
-EmptyGraph.coloring 55 0.00121892
-EmptyGraph.clear 55 0.0013538
-Edges.equal 55 0.00106637
-Edges.nonEqual 55 0.00125793
-Edges.toStringStream 55 0.00123426
+NonEmptyGraph.nodes 45 0.0020505
+NonEmptyGraph.edges 45 0.00210062
+NonEmptyGraph.addNode 45 0.00210692
+NonEmptyGraph.addEdge 45 0.00212163
+NonEmptyGraph.addMultipleEdges 45 0.00213537
+NonEmptyGraph.getNode 45 0.00209398
+NonEmptyGraph.containsEdge 44 0.00219473
+NonEmptyGraph.removeNode 23 0.00481644
+NonEmptyGraph.removeEdge 25 0.00443217
+NonEmptyGraph.nodeCount 37 0.00268851
+NonEmptyGraph.edgeCount 37 0.00250587
+NonEmptyGraph.nodeDegree 37 0.00260347
+NonEmptyGraph.graphDegree 17 0.00611198
+NonEmptyGraph.coloring 7 0.0134603
+NonEmptyGraph.clear 92 0.00102285
+EmptyGraph.nodes 123 0.000774386
+EmptyGraph.edges 123 0.000780701
+EmptyGraph.addNode 62 0.0014952
+EmptyGraph.addEdge 52 0.00184346
+EmptyGraph.addMultipleEdges 45 0.00208876
+EmptyGraph.getNode 123 0.000759234
+EmptyGraph.containsEdge 123 0.000779396
+EmptyGraph.removeNode 40 0.00247008
+EmptyGraph.removeEdge 38 0.00247544
+EmptyGraph.nodeCount 37 0.00265333
+EmptyGraph.edgeCount 37 0.00261038
+EmptyGraph.nodeDegree 37 0.00261104
+EmptyGraph.graphDegree 17 0.00555464
+EmptyGraph.coloring 123 0.000776288
+EmptyGraph.clear 123 0.000776447
+Edges.equal 123 0.000790367
+Edges.nonEqual 123 0.000780662
+Edges.toStringStream 123 0.000811208
 HelloTest.BasicAssertions 1 0.0391576
-EmptyTree.InsertNode 47 0.000905026
-EmptyTree.DeleteNode 38 0.00109062
-EmptyTree.FindNode 33 0.00127289
-NonEmptyTree.InsertNode 27 0.00155241
-NonEmptyTree.DeleteNode 27 0.001419
-NonEmptyTree.FindNode 23 0.00172112
-TreeAxioms.Axiom1 7 0.00550391
-TreeAxioms.Axiom2 20 0.00210738
-TreeAxioms.Axiom3 20 0.00195487
+EmptyTree.InsertNode 115 0.00116611
+EmptyTree.DeleteNode 106 0.00077857
+EmptyTree.FindNode 101 0.000808951
+NonEmptyTree.InsertNode 95 0.000868305
+NonEmptyTree.DeleteNode 95 0.000848673
+NonEmptyTree.FindNode 91 0.000861052
+TreeAxioms.Axiom1 75 0.00106777
+TreeAxioms.Axiom2 88 0.000955053
+TreeAxioms.Axiom3 88 0.000923597
 white_box_test_coverage.hash_function 1 0.0698944
 white_box_test_coverage.hash_map_lookup_handle 1 0.0684368
 white_box_test_coverage.hash_map_lookup 1 0.0509505
@@ -71,28 +71,20 @@ white_box_tests.hash_map_put 1 0.0915572
 white_box_tests.hash_map_get 1 0.0644569
 white_box_tests.hash_map_remove 1 0.04555
 white_box_tests.hash_map_pop 1 0.0670213
+EmptyHashMap.Size 68 0.00157777
+EmptyHashMap.Capacity 68 0.0015093
+EmptyHashMap.Remove 0 0
+EmptyHashMap.Pop 0 0
+EmptyHashMap.Contains 68 0.00181263
+EmptyHashMap.Get 68 0.00124959
+NonEmptyHashMap.Size 68 0.00155778
+NonEmptyHashMap.Capacity 68 0.0015837
+NonEmptyHashMap.Remove 68 0.00162453
+NonEmptyHashMap.Reserve 68 0.00134469
+NonEmptyHashMap.Put_Collision 68 0.00165428
+NonEmptyHashMap.Pop 68 0.00153273
+NonEmptyHashMap.Contains 68 0.00159744
+NonEmptyHashMap.Get 68 0.00160347
 ---
-white_box_tests.hash_function
-NonEmptyGraph.nodes
-NonEmptyGraph.edges
-NonEmptyGraph.addNode
-NonEmptyGraph.addEdge
-NonEmptyGraph.addMultipleEdges
-NonEmptyGraph.getNode
-NonEmptyGraph.containsEdge
-NonEmptyGraph.removeNode
-NonEmptyGraph.removeEdge
-NonEmptyGraph.nodeCount
-NonEmptyGraph.edgeCount
-NonEmptyGraph.nodeDegree
-NonEmptyGraph.graphDegree
-NonEmptyGraph.coloring
-EmptyGraph.addNode
-EmptyGraph.addEdge
-EmptyGraph.addMultipleEdges
-EmptyGraph.removeNode
-EmptyGraph.removeEdge
-EmptyGraph.nodeCount
-EmptyGraph.edgeCount
-EmptyGraph.nodeDegree
-EmptyGraph.graphDegree
+EmptyHashMap.Remove
+EmptyHashMap.Pop

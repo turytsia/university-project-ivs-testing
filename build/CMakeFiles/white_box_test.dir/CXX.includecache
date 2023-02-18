@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/white_box_code.cpp
-white_box_code.h
-/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/white_box_code.h
-stdio.h
--
-
 /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/white_box_code.h
 stdlib.h
 -

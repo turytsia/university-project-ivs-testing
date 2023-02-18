@@ -19,83 +19,154 @@
 
 #include "white_box_code.h"
 
-class HashMap:public ::testing::Test{
+class EmptyHashMap : public ::testing::Test
+{
+protected:
+    hash_map *map;
+    char buffer[20];
+    int value;
 
+    void SetUp() override
+    {
+        map = hash_map_ctor();
+    }
+
+    void TearDown() override
+    {
+        hash_map_dtor(map);
+    }
 };
 
-TEST(hash_function, test)
+TEST_F(EmptyHashMap, Size)
 {
-    hash_map *hm = hash_map_ctor();
-
+    EXPECT_EQ(hash_map_size(map), 0);
 }
 
-TEST(hash_map_lookup_handle, test)
+TEST_F(EmptyHashMap, Capacity)
 {
+    EXPECT_EQ(hash_map_capacity(map), HASH_MAP_INIT_SIZE);
+    for (int i = 0; i < 10; i++){
+        sprintf(buffer, "test_%d", i);
+        EXPECT_EQ(hash_map_put(map, buffer, i), OK);
+    }
+    EXPECT_EQ(hash_map_capacity(map), HASH_MAP_INIT_SIZE * 2);
 }
 
-TEST(hash_map_lookup, test)
+TEST_F(EmptyHashMap, Remove)
 {
+    EXPECT_EQ(hash_map_remove(map, "test"), KEY_ERROR);
+    EXPECT_EQ(hash_map_put(map, "test", 1), OK);
+    EXPECT_EQ(hash_map_remove(map, "test"), OK);
+    EXPECT_EQ(hash_map_size(map), 0); //Shouldn't this method be true??
 }
 
-TEST(hash_map_init, test)
+TEST_F(EmptyHashMap, Pop)
 {
+    EXPECT_EQ(hash_map_pop(map, "test", &value), KEY_ERROR);
+    EXPECT_EQ(hash_map_put(map, "test", 1), OK);
+    EXPECT_EQ(hash_map_pop(map, "test",&value), OK);
+    EXPECT_EQ(value, 1);
+    EXPECT_EQ(hash_map_size(map), 0); //this one should be 0 too I guess
 }
 
-TEST(hash_map_ctor, test)
+TEST_F(EmptyHashMap, Contains)
 {
+    EXPECT_FALSE(hash_map_contains(map, "non-existing_key123"));
 }
 
-TEST(hash_map_clear, test)
+TEST_F(EmptyHashMap, Get)
 {
+    EXPECT_EQ(hash_map_get(map, "non-existing_key123", &value), KEY_ERROR);
 }
 
-TEST(hash_map_dtor, test)
+class NonEmptyHashMap : public ::testing::Test
 {
+protected:
+    std::vector<std::pair<const char *, int>> dict = {{"a", 1}, {"b", 2}, {"c", 3}, {"d", 4}, {"e", 5}};
+    hash_map *map;
+    int value;
+
+    void
+    SetUp() override
+    {
+        map = hash_map_ctor();
+
+        for (auto obj : dict)
+        {
+            hash_map_put(map, obj.first, obj.second);
+        }
+    }
+
+    void TearDown() override
+    {
+        hash_map_dtor(map);
+    }
+};
+
+TEST_F(NonEmptyHashMap, Size)
+{
+    EXPECT_EQ(hash_map_size(map), dict.size());
 }
 
-TEST(hash_map_reserve, test)
+TEST_F(NonEmptyHashMap, Capacity)
 {
+    EXPECT_EQ(hash_map_capacity(map), HASH_MAP_INIT_SIZE);
+    EXPECT_EQ(hash_map_put(map, "f", 6), OK);
+    EXPECT_EQ(hash_map_capacity(map), HASH_MAP_INIT_SIZE*2);
 }
 
-TEST(hash_map_size, test)
+TEST_F(NonEmptyHashMap, Remove)
 {
+    for (auto obj : dict)
+    {
+        EXPECT_EQ(hash_map_remove(map, obj.first), OK);
+    }
+
+    EXPECT_EQ(hash_map_remove(map, "non-existing_key123"), KEY_ERROR);
 }
 
-TEST(hash_map_capacity, test)
+TEST_F(NonEmptyHashMap, Reserve)
 {
+    EXPECT_EQ(hash_map_reserve(map, 0), VALUE_ERROR);
+    EXPECT_EQ(hash_map_reserve(map, HASH_MAP_INIT_SIZE), OK);
 }
 
-TEST(hash_map_contains, test)
+TEST_F(NonEmptyHashMap, Put_Collision)
 {
+    EXPECT_EQ(hash_map_put(map, "f", 6), OK);
+    EXPECT_EQ(hash_map_put(map, "g", 7), OK);
+    EXPECT_EQ(hash_map_put(map, "g", 8), KEY_ALREADY_EXISTS); //key collision
 }
 
-TEST(hash_map_put, test)
+TEST_F(NonEmptyHashMap, Pop)
 {
+    for (auto obj : dict)
+    {
+        EXPECT_EQ(hash_map_pop(map, obj.first,&value), OK);
+        EXPECT_EQ(value, obj.second);
+    }
+
+    EXPECT_EQ(hash_map_pop(map, "non-existing_key123", &value), KEY_ERROR);
 }
 
-TEST(hash_map_get, test)
-{
+TEST_F(NonEmptyHashMap, Contains){
+    for (auto obj : dict)
+    {
+        EXPECT_TRUE(hash_map_contains(map, obj.first));
+        EXPECT_EQ(hash_map_remove(map, obj.first), OK);
+        EXPECT_FALSE(hash_map_contains(map, obj.first));
+    }
 }
 
-TEST(hash_map_remove, test)
+TEST_F(NonEmptyHashMap, Get)
 {
-}
+    for (auto obj : dict)
+    {
+        EXPECT_EQ(hash_map_get(map, obj.first,&value),OK);
+        EXPECT_EQ(value, obj.second);
+    }
 
-TEST(hash_map_pop, test)
-{
+    EXPECT_EQ(hash_map_get(map, "non-existing_key123", &value), KEY_ERROR);
 }
-
-//============================================================================//
-// ** ZDE DOPLNTE TESTY **
-//
-// Zde doplnte testy hasovaci tabulky, testujte nasledujici:
-// 1. Verejne rozhrani hasovaci tabulky
-//     - Vsechny funkce z white_box_code.h
-//     - Chovani techto metod testuje pro prazdnou i neprazdnou tabulku.
-// 2. Chovani tabulky v hranicnich pripadech
-//     - Otestujte chovani pri kolizich ruznych klicu se stejnym hashem
-//     - Otestujte chovani pri kolizich hashu namapovane na stejne misto v
-//       indexu
-//============================================================================//
 
 /*** Konec souboru white_box_tests.cpp ***/
