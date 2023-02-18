@@ -1,0 +1,98 @@
+NonEmptyGraph.nodes 0 0
+NonEmptyGraph.edges 0 0
+NonEmptyGraph.addNode 0 0
+NonEmptyGraph.addEdge 0 0
+NonEmptyGraph.addMultipleEdges 0 0
+NonEmptyGraph.getNode 0 0
+NonEmptyGraph.containsEdge 0 0
+NonEmptyGraph.removeNode 0 0
+NonEmptyGraph.removeEdge 0 0
+NonEmptyGraph.nodeCount 0 0
+NonEmptyGraph.edgeCount 0 0
+NonEmptyGraph.nodeDegree 0 0
+NonEmptyGraph.graphDegree 0 0
+NonEmptyGraph.coloring 0 0
+NonEmptyGraph.clear 55 0.000950769
+EmptyGraph.nodes 55 0.00147392
+EmptyGraph.edges 55 0.00125703
+EmptyGraph.addNode 0 0
+EmptyGraph.addEdge 0 0
+EmptyGraph.addMultipleEdges 0 0
+EmptyGraph.getNode 55 0.000919149
+EmptyGraph.containsEdge 55 0.000932525
+EmptyGraph.removeNode 0 0
+EmptyGraph.removeEdge 0 0
+EmptyGraph.nodeCount 0 0
+EmptyGraph.edgeCount 0 0
+EmptyGraph.nodeDegree 0 0
+EmptyGraph.graphDegree 0 0
+EmptyGraph.coloring 55 0.00121892
+EmptyGraph.clear 55 0.0013538
+Edges.equal 55 0.00106637
+Edges.nonEqual 55 0.00125793
+Edges.toStringStream 55 0.00123426
+HelloTest.BasicAssertions 1 0.0391576
+EmptyTree.InsertNode 47 0.000905026
+EmptyTree.DeleteNode 38 0.00109062
+EmptyTree.FindNode 33 0.00127289
+NonEmptyTree.InsertNode 27 0.00155241
+NonEmptyTree.DeleteNode 27 0.001419
+NonEmptyTree.FindNode 23 0.00172112
+TreeAxioms.Axiom1 7 0.00550391
+TreeAxioms.Axiom2 20 0.00210738
+TreeAxioms.Axiom3 20 0.00195487
+white_box_test_coverage.hash_function 1 0.0698944
+white_box_test_coverage.hash_map_lookup_handle 1 0.0684368
+white_box_test_coverage.hash_map_lookup 1 0.0509505
+white_box_test_coverage.hash_map_init 1 0.0781489
+white_box_test_coverage.hash_map_ctor 1 0.0644395
+white_box_test_coverage.hash_map_clear 1 0.0634344
+white_box_test_coverage.hash_map_dtor 1 0.0627893
+white_box_test_coverage.hash_map_reserve 1 0.0475728
+white_box_test_coverage.hash_map_size 1 0.0609921
+white_box_test_coverage.hash_map_capacity 1 0.0507476
+white_box_test_coverage.hash_map_contains 1 0.071344
+white_box_test_coverage.hash_map_put 1 0.0799738
+white_box_test_coverage.hash_map_get 1 0.0903448
+white_box_test_coverage.hash_map_remove 1 0.0578634
+white_box_test_coverage.hash_map_pop 1 0.0991967
+white_box_tests.hash_function 0 0
+white_box_tests.hash_map_lookup_handle 1 0.0658915
+white_box_tests.hash_map_lookup 1 0.0830855
+white_box_tests.hash_map_init 1 0.0719121
+white_box_tests.hash_map_ctor 1 0.0759135
+white_box_tests.hash_map_clear 1 0.0622512
+white_box_tests.hash_map_dtor 1 0.120757
+white_box_tests.hash_map_reserve 1 0.0923878
+white_box_tests.hash_map_size 1 0.0813373
+white_box_tests.hash_map_capacity 1 0.0933673
+white_box_tests.hash_map_contains 1 0.0773953
+white_box_tests.hash_map_put 1 0.0915572
+white_box_tests.hash_map_get 1 0.0644569
+white_box_tests.hash_map_remove 1 0.04555
+white_box_tests.hash_map_pop 1 0.0670213
+---
+white_box_tests.hash_function
+NonEmptyGraph.nodes
+NonEmptyGraph.edges
+NonEmptyGraph.addNode
+NonEmptyGraph.addEdge
+NonEmptyGraph.addMultipleEdges
+NonEmptyGraph.getNode
+NonEmptyGraph.containsEdge
+NonEmptyGraph.removeNode
+NonEmptyGraph.removeEdge
+NonEmptyGraph.nodeCount
+NonEmptyGraph.edgeCount
+NonEmptyGraph.nodeDegree
+NonEmptyGraph.graphDegree
+NonEmptyGraph.coloring
+EmptyGraph.addNode
+EmptyGraph.addEdge
+EmptyGraph.addMultipleEdges
+EmptyGraph.removeNode
+EmptyGraph.removeEdge
+EmptyGraph.nodeCount
+EmptyGraph.edgeCount
+EmptyGraph.nodeDegree
+EmptyGraph.graphDegree
