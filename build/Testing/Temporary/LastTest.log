@@ -1,10 +1,10 @@
-Start testing: Feb 19 00:44 CET
+Start testing: Feb 19 10:28 CET
 ----------------------------------------------------------
 1/56 Testing: EmptyTree.InsertNode
 1/56 Test: EmptyTree.InsertNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/black_box_test" "--gtest_filter=EmptyTree.InsertNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyTree.InsertNode" start time: Feb 19 00:44 CET
+"EmptyTree.InsertNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -20,10 +20,10 @@ Note: Google Test filter = EmptyTree.InsertNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.13 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyTree.InsertNode" end time: Feb 19 00:44 CET
+"EmptyTree.InsertNode" end time: Feb 19 10:28 CET
 "EmptyTree.InsertNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/56 Test: EmptyTree.DeleteNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/black_box_test" "--gtest_filter=EmptyTree.DeleteNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyTree.DeleteNode" start time: Feb 19 00:44 CET
+"EmptyTree.DeleteNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -47,10 +47,10 @@ Note: Google Test filter = EmptyTree.DeleteNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyTree.DeleteNode" end time: Feb 19 00:44 CET
+"EmptyTree.DeleteNode" end time: Feb 19 10:28 CET
 "EmptyTree.DeleteNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/56 Test: EmptyTree.FindNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/black_box_test" "--gtest_filter=EmptyTree.FindNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyTree.FindNode" start time: Feb 19 00:44 CET
+"EmptyTree.FindNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -74,10 +74,10 @@ Note: Google Test filter = EmptyTree.FindNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyTree.FindNode" end time: Feb 19 00:44 CET
+"EmptyTree.FindNode" end time: Feb 19 10:28 CET
 "EmptyTree.FindNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/56 Test: NonEmptyTree.InsertNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/black_box_test" "--gtest_filter=NonEmptyTree.InsertNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyTree.InsertNode" start time: Feb 19 00:44 CET
+"NonEmptyTree.InsertNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -101,10 +101,10 @@ Note: Google Test filter = NonEmptyTree.InsertNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyTree.InsertNode" end time: Feb 19 00:44 CET
+"NonEmptyTree.InsertNode" end time: Feb 19 10:28 CET
 "NonEmptyTree.InsertNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/56 Test: NonEmptyTree.DeleteNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/black_box_test" "--gtest_filter=NonEmptyTree.DeleteNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyTree.DeleteNode" start time: Feb 19 00:44 CET
+"NonEmptyTree.DeleteNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -128,10 +128,10 @@ Note: Google Test filter = NonEmptyTree.DeleteNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyTree.DeleteNode" end time: Feb 19 00:44 CET
+"NonEmptyTree.DeleteNode" end time: Feb 19 10:28 CET
 "NonEmptyTree.DeleteNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/56 Test: NonEmptyTree.FindNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/black_box_test" "--gtest_filter=NonEmptyTree.FindNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyTree.FindNode" start time: Feb 19 00:44 CET
+"NonEmptyTree.FindNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -155,10 +155,10 @@ Note: Google Test filter = NonEmptyTree.FindNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyTree.FindNode" end time: Feb 19 00:44 CET
+"NonEmptyTree.FindNode" end time: Feb 19 10:28 CET
 "NonEmptyTree.FindNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/56 Test: TreeAxioms.Axiom1
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/black_box_test" "--gtest_filter=TreeAxioms.Axiom1" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"TreeAxioms.Axiom1" start time: Feb 19 00:44 CET
+"TreeAxioms.Axiom1" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -182,10 +182,10 @@ Note: Google Test filter = TreeAxioms.Axiom1
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"TreeAxioms.Axiom1" end time: Feb 19 00:44 CET
+"TreeAxioms.Axiom1" end time: Feb 19 10:28 CET
 "TreeAxioms.Axiom1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/56 Test: TreeAxioms.Axiom2
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/black_box_test" "--gtest_filter=TreeAxioms.Axiom2" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"TreeAxioms.Axiom2" start time: Feb 19 00:44 CET
+"TreeAxioms.Axiom2" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -209,10 +209,10 @@ Note: Google Test filter = TreeAxioms.Axiom2
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"TreeAxioms.Axiom2" end time: Feb 19 00:45 CET
+"TreeAxioms.Axiom2" end time: Feb 19 10:28 CET
 "TreeAxioms.Axiom2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/56 Test: TreeAxioms.Axiom3
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/black_box_test" "--gtest_filter=TreeAxioms.Axiom3" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"TreeAxioms.Axiom3" start time: Feb 19 00:45 CET
+"TreeAxioms.Axiom3" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -236,10 +236,10 @@ Note: Google Test filter = TreeAxioms.Axiom3
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"TreeAxioms.Axiom3" end time: Feb 19 00:45 CET
+"TreeAxioms.Axiom3" end time: Feb 19 10:28 CET
 "TreeAxioms.Axiom3" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +247,7 @@ Test Passed.
 10/56 Test: EmptyHashMap.Size
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=EmptyHashMap.Size" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyHashMap.Size" start time: Feb 19 00:45 CET
+"EmptyHashMap.Size" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -263,10 +263,10 @@ Note: Google Test filter = EmptyHashMap.Size
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyHashMap.Size" end time: Feb 19 00:45 CET
+"EmptyHashMap.Size" end time: Feb 19 10:28 CET
 "EmptyHashMap.Size" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,7 +274,7 @@ Test Passed.
 11/56 Test: EmptyHashMap.Capacity
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=EmptyHashMap.Capacity" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyHashMap.Capacity" start time: Feb 19 00:45 CET
+"EmptyHashMap.Capacity" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -290,10 +290,10 @@ Note: Google Test filter = EmptyHashMap.Capacity
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyHashMap.Capacity" end time: Feb 19 00:45 CET
+"EmptyHashMap.Capacity" end time: Feb 19 10:28 CET
 "EmptyHashMap.Capacity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -301,7 +301,7 @@ Test Passed.
 12/56 Test: EmptyHashMap.Remove
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=EmptyHashMap.Remove" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyHashMap.Remove" start time: Feb 19 00:45 CET
+"EmptyHashMap.Remove" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -310,26 +310,17 @@ Note: Google Test filter = EmptyHashMap.Remove
 [----------] Global test environment set-up.
 [----------] 1 test from EmptyHashMap
 [ RUN      ] EmptyHashMap.Remove
-/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/white_box_tests.cpp:60: Failure
-Expected equality of these values:
-  hash_map_size(map)
-    Which is: 1
-  0
-[  FAILED  ] EmptyHashMap.Remove (0 ms)
+[       OK ] EmptyHashMap.Remove (0 ms)
 [----------] 1 test from EmptyHashMap (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] EmptyHashMap.Remove
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
-Test Failed.
-"EmptyHashMap.Remove" end time: Feb 19 00:45 CET
+Test Passed.
+"EmptyHashMap.Remove" end time: Feb 19 10:28 CET
 "EmptyHashMap.Remove" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -337,7 +328,7 @@ Test Failed.
 13/56 Test: EmptyHashMap.Pop
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=EmptyHashMap.Pop" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyHashMap.Pop" start time: Feb 19 00:45 CET
+"EmptyHashMap.Pop" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -346,26 +337,17 @@ Note: Google Test filter = EmptyHashMap.Pop
 [----------] Global test environment set-up.
 [----------] 1 test from EmptyHashMap
 [ RUN      ] EmptyHashMap.Pop
-/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/white_box_tests.cpp:69: Failure
-Expected equality of these values:
-  hash_map_size(map)
-    Which is: 1
-  0
-[  FAILED  ] EmptyHashMap.Pop (0 ms)
+[       OK ] EmptyHashMap.Pop (0 ms)
 [----------] 1 test from EmptyHashMap (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] EmptyHashMap.Pop
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
-Test Failed.
-"EmptyHashMap.Pop" end time: Feb 19 00:45 CET
+Test Passed.
+"EmptyHashMap.Pop" end time: Feb 19 10:28 CET
 "EmptyHashMap.Pop" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -373,7 +355,7 @@ Test Failed.
 14/56 Test: EmptyHashMap.Contains
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=EmptyHashMap.Contains" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyHashMap.Contains" start time: Feb 19 00:45 CET
+"EmptyHashMap.Contains" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -389,10 +371,10 @@ Note: Google Test filter = EmptyHashMap.Contains
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.12 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyHashMap.Contains" end time: Feb 19 00:45 CET
+"EmptyHashMap.Contains" end time: Feb 19 10:28 CET
 "EmptyHashMap.Contains" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -400,7 +382,7 @@ Test Passed.
 15/56 Test: EmptyHashMap.Get
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=EmptyHashMap.Get" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyHashMap.Get" start time: Feb 19 00:45 CET
+"EmptyHashMap.Get" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -416,10 +398,10 @@ Note: Google Test filter = EmptyHashMap.Get
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.08 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyHashMap.Get" end time: Feb 19 00:45 CET
+"EmptyHashMap.Get" end time: Feb 19 10:28 CET
 "EmptyHashMap.Get" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -427,7 +409,7 @@ Test Passed.
 16/56 Test: NonEmptyHashMap.Size
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=NonEmptyHashMap.Size" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyHashMap.Size" start time: Feb 19 00:45 CET
+"NonEmptyHashMap.Size" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -443,10 +425,10 @@ Note: Google Test filter = NonEmptyHashMap.Size
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyHashMap.Size" end time: Feb 19 00:45 CET
+"NonEmptyHashMap.Size" end time: Feb 19 10:28 CET
 "NonEmptyHashMap.Size" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -454,7 +436,7 @@ Test Passed.
 17/56 Test: NonEmptyHashMap.Capacity
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=NonEmptyHashMap.Capacity" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyHashMap.Capacity" start time: Feb 19 00:45 CET
+"NonEmptyHashMap.Capacity" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -470,10 +452,10 @@ Note: Google Test filter = NonEmptyHashMap.Capacity
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyHashMap.Capacity" end time: Feb 19 00:45 CET
+"NonEmptyHashMap.Capacity" end time: Feb 19 10:28 CET
 "NonEmptyHashMap.Capacity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -481,7 +463,7 @@ Test Passed.
 18/56 Test: NonEmptyHashMap.Remove
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=NonEmptyHashMap.Remove" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyHashMap.Remove" start time: Feb 19 00:45 CET
+"NonEmptyHashMap.Remove" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -497,10 +479,10 @@ Note: Google Test filter = NonEmptyHashMap.Remove
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyHashMap.Remove" end time: Feb 19 00:45 CET
+"NonEmptyHashMap.Remove" end time: Feb 19 10:28 CET
 "NonEmptyHashMap.Remove" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -508,7 +490,7 @@ Test Passed.
 19/56 Test: NonEmptyHashMap.Reserve
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=NonEmptyHashMap.Reserve" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyHashMap.Reserve" start time: Feb 19 00:45 CET
+"NonEmptyHashMap.Reserve" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -524,10 +506,10 @@ Note: Google Test filter = NonEmptyHashMap.Reserve
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyHashMap.Reserve" end time: Feb 19 00:45 CET
+"NonEmptyHashMap.Reserve" end time: Feb 19 10:28 CET
 "NonEmptyHashMap.Reserve" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -535,7 +517,7 @@ Test Passed.
 20/56 Test: NonEmptyHashMap.Put_Collision
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=NonEmptyHashMap.Put_Collision" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyHashMap.Put_Collision" start time: Feb 19 00:45 CET
+"NonEmptyHashMap.Put_Collision" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -551,10 +533,10 @@ Note: Google Test filter = NonEmptyHashMap.Put_Collision
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyHashMap.Put_Collision" end time: Feb 19 00:45 CET
+"NonEmptyHashMap.Put_Collision" end time: Feb 19 10:28 CET
 "NonEmptyHashMap.Put_Collision" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -562,7 +544,7 @@ Test Passed.
 21/56 Test: NonEmptyHashMap.Pop
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=NonEmptyHashMap.Pop" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyHashMap.Pop" start time: Feb 19 00:45 CET
+"NonEmptyHashMap.Pop" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -578,10 +560,10 @@ Note: Google Test filter = NonEmptyHashMap.Pop
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyHashMap.Pop" end time: Feb 19 00:45 CET
+"NonEmptyHashMap.Pop" end time: Feb 19 10:28 CET
 "NonEmptyHashMap.Pop" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -589,7 +571,7 @@ Test Passed.
 22/56 Test: NonEmptyHashMap.Contains
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=NonEmptyHashMap.Contains" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyHashMap.Contains" start time: Feb 19 00:45 CET
+"NonEmptyHashMap.Contains" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -605,10 +587,10 @@ Note: Google Test filter = NonEmptyHashMap.Contains
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyHashMap.Contains" end time: Feb 19 00:45 CET
+"NonEmptyHashMap.Contains" end time: Feb 19 10:28 CET
 "NonEmptyHashMap.Contains" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -616,7 +598,7 @@ Test Passed.
 23/56 Test: NonEmptyHashMap.Get
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/white_box_test" "--gtest_filter=NonEmptyHashMap.Get" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyHashMap.Get" start time: Feb 19 00:45 CET
+"NonEmptyHashMap.Get" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -632,10 +614,10 @@ Note: Google Test filter = NonEmptyHashMap.Get
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyHashMap.Get" end time: Feb 19 00:45 CET
+"NonEmptyHashMap.Get" end time: Feb 19 10:28 CET
 "NonEmptyHashMap.Get" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -643,7 +625,7 @@ Test Passed.
 24/56 Test: NonEmptyGraph.nodes
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.nodes" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.nodes" start time: Feb 19 00:45 CET
+"NonEmptyGraph.nodes" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -659,10 +641,10 @@ Note: Google Test filter = NonEmptyGraph.nodes
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.nodes" end time: Feb 19 00:45 CET
+"NonEmptyGraph.nodes" end time: Feb 19 10:28 CET
 "NonEmptyGraph.nodes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -670,7 +652,7 @@ Test Passed.
 25/56 Test: NonEmptyGraph.edges
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.edges" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.edges" start time: Feb 19 00:45 CET
+"NonEmptyGraph.edges" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -686,10 +668,10 @@ Note: Google Test filter = NonEmptyGraph.edges
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.edges" end time: Feb 19 00:45 CET
+"NonEmptyGraph.edges" end time: Feb 19 10:28 CET
 "NonEmptyGraph.edges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -697,7 +679,7 @@ Test Passed.
 26/56 Test: NonEmptyGraph.addNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.addNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.addNode" start time: Feb 19 00:45 CET
+"NonEmptyGraph.addNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -713,10 +695,10 @@ Note: Google Test filter = NonEmptyGraph.addNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.addNode" end time: Feb 19 00:45 CET
+"NonEmptyGraph.addNode" end time: Feb 19 10:28 CET
 "NonEmptyGraph.addNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -724,7 +706,7 @@ Test Passed.
 27/56 Test: NonEmptyGraph.addEdge
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.addEdge" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.addEdge" start time: Feb 19 00:45 CET
+"NonEmptyGraph.addEdge" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -740,10 +722,10 @@ Note: Google Test filter = NonEmptyGraph.addEdge
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.addEdge" end time: Feb 19 00:45 CET
+"NonEmptyGraph.addEdge" end time: Feb 19 10:28 CET
 "NonEmptyGraph.addEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -751,7 +733,7 @@ Test Passed.
 28/56 Test: NonEmptyGraph.addMultipleEdges
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.addMultipleEdges" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.addMultipleEdges" start time: Feb 19 00:45 CET
+"NonEmptyGraph.addMultipleEdges" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -767,10 +749,10 @@ Note: Google Test filter = NonEmptyGraph.addMultipleEdges
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.addMultipleEdges" end time: Feb 19 00:45 CET
+"NonEmptyGraph.addMultipleEdges" end time: Feb 19 10:28 CET
 "NonEmptyGraph.addMultipleEdges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -778,7 +760,7 @@ Test Passed.
 29/56 Test: NonEmptyGraph.getNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.getNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.getNode" start time: Feb 19 00:45 CET
+"NonEmptyGraph.getNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -794,10 +776,10 @@ Note: Google Test filter = NonEmptyGraph.getNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.getNode" end time: Feb 19 00:45 CET
+"NonEmptyGraph.getNode" end time: Feb 19 10:28 CET
 "NonEmptyGraph.getNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -805,7 +787,7 @@ Test Passed.
 30/56 Test: NonEmptyGraph.containsEdge
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.containsEdge" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.containsEdge" start time: Feb 19 00:45 CET
+"NonEmptyGraph.containsEdge" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -821,10 +803,10 @@ Note: Google Test filter = NonEmptyGraph.containsEdge
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.containsEdge" end time: Feb 19 00:45 CET
+"NonEmptyGraph.containsEdge" end time: Feb 19 10:28 CET
 "NonEmptyGraph.containsEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -832,7 +814,7 @@ Test Passed.
 31/56 Test: NonEmptyGraph.removeNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.removeNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.removeNode" start time: Feb 19 00:45 CET
+"NonEmptyGraph.removeNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -848,10 +830,10 @@ Note: Google Test filter = NonEmptyGraph.removeNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.removeNode" end time: Feb 19 00:45 CET
+"NonEmptyGraph.removeNode" end time: Feb 19 10:28 CET
 "NonEmptyGraph.removeNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -859,7 +841,7 @@ Test Passed.
 32/56 Test: NonEmptyGraph.removeEdge
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.removeEdge" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.removeEdge" start time: Feb 19 00:45 CET
+"NonEmptyGraph.removeEdge" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -875,10 +857,10 @@ Note: Google Test filter = NonEmptyGraph.removeEdge
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.removeEdge" end time: Feb 19 00:45 CET
+"NonEmptyGraph.removeEdge" end time: Feb 19 10:28 CET
 "NonEmptyGraph.removeEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -886,7 +868,7 @@ Test Passed.
 33/56 Test: NonEmptyGraph.nodeCount
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.nodeCount" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.nodeCount" start time: Feb 19 00:45 CET
+"NonEmptyGraph.nodeCount" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -902,10 +884,10 @@ Note: Google Test filter = NonEmptyGraph.nodeCount
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.nodeCount" end time: Feb 19 00:45 CET
+"NonEmptyGraph.nodeCount" end time: Feb 19 10:28 CET
 "NonEmptyGraph.nodeCount" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -913,7 +895,7 @@ Test Passed.
 34/56 Test: NonEmptyGraph.edgeCount
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.edgeCount" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.edgeCount" start time: Feb 19 00:45 CET
+"NonEmptyGraph.edgeCount" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -929,10 +911,10 @@ Note: Google Test filter = NonEmptyGraph.edgeCount
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.edgeCount" end time: Feb 19 00:45 CET
+"NonEmptyGraph.edgeCount" end time: Feb 19 10:28 CET
 "NonEmptyGraph.edgeCount" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -940,7 +922,7 @@ Test Passed.
 35/56 Test: NonEmptyGraph.nodeDegree
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.nodeDegree" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.nodeDegree" start time: Feb 19 00:45 CET
+"NonEmptyGraph.nodeDegree" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -956,10 +938,10 @@ Note: Google Test filter = NonEmptyGraph.nodeDegree
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.nodeDegree" end time: Feb 19 00:45 CET
+"NonEmptyGraph.nodeDegree" end time: Feb 19 10:28 CET
 "NonEmptyGraph.nodeDegree" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -967,7 +949,7 @@ Test Passed.
 36/56 Test: NonEmptyGraph.graphDegree
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.graphDegree" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.graphDegree" start time: Feb 19 00:45 CET
+"NonEmptyGraph.graphDegree" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -983,10 +965,10 @@ Note: Google Test filter = NonEmptyGraph.graphDegree
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.graphDegree" end time: Feb 19 00:45 CET
+"NonEmptyGraph.graphDegree" end time: Feb 19 10:28 CET
 "NonEmptyGraph.graphDegree" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -994,7 +976,7 @@ Test Passed.
 37/56 Test: NonEmptyGraph.coloring
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.coloring" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.coloring" start time: Feb 19 00:45 CET
+"NonEmptyGraph.coloring" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1010,10 +992,10 @@ Note: Google Test filter = NonEmptyGraph.coloring
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.coloring" end time: Feb 19 00:45 CET
+"NonEmptyGraph.coloring" end time: Feb 19 10:28 CET
 "NonEmptyGraph.coloring" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1021,7 +1003,7 @@ Test Passed.
 38/56 Test: NonEmptyGraph.clear
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=NonEmptyGraph.clear" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"NonEmptyGraph.clear" start time: Feb 19 00:45 CET
+"NonEmptyGraph.clear" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1037,10 +1019,10 @@ Note: Google Test filter = NonEmptyGraph.clear
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"NonEmptyGraph.clear" end time: Feb 19 00:45 CET
+"NonEmptyGraph.clear" end time: Feb 19 10:28 CET
 "NonEmptyGraph.clear" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1048,7 +1030,7 @@ Test Passed.
 39/56 Test: EmptyGraph.nodes
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.nodes" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.nodes" start time: Feb 19 00:45 CET
+"EmptyGraph.nodes" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1064,10 +1046,10 @@ Note: Google Test filter = EmptyGraph.nodes
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.nodes" end time: Feb 19 00:45 CET
+"EmptyGraph.nodes" end time: Feb 19 10:28 CET
 "EmptyGraph.nodes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1075,7 +1057,7 @@ Test Passed.
 40/56 Test: EmptyGraph.edges
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.edges" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.edges" start time: Feb 19 00:45 CET
+"EmptyGraph.edges" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1091,10 +1073,10 @@ Note: Google Test filter = EmptyGraph.edges
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.edges" end time: Feb 19 00:45 CET
+"EmptyGraph.edges" end time: Feb 19 10:28 CET
 "EmptyGraph.edges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1102,7 +1084,7 @@ Test Passed.
 41/56 Test: EmptyGraph.addNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.addNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.addNode" start time: Feb 19 00:45 CET
+"EmptyGraph.addNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1118,10 +1100,10 @@ Note: Google Test filter = EmptyGraph.addNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.addNode" end time: Feb 19 00:45 CET
+"EmptyGraph.addNode" end time: Feb 19 10:28 CET
 "EmptyGraph.addNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1129,7 +1111,7 @@ Test Passed.
 42/56 Test: EmptyGraph.addEdge
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.addEdge" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.addEdge" start time: Feb 19 00:45 CET
+"EmptyGraph.addEdge" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1145,10 +1127,10 @@ Note: Google Test filter = EmptyGraph.addEdge
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.addEdge" end time: Feb 19 00:45 CET
+"EmptyGraph.addEdge" end time: Feb 19 10:28 CET
 "EmptyGraph.addEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1156,7 +1138,7 @@ Test Passed.
 43/56 Test: EmptyGraph.addMultipleEdges
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.addMultipleEdges" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.addMultipleEdges" start time: Feb 19 00:45 CET
+"EmptyGraph.addMultipleEdges" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1172,10 +1154,10 @@ Note: Google Test filter = EmptyGraph.addMultipleEdges
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.addMultipleEdges" end time: Feb 19 00:45 CET
+"EmptyGraph.addMultipleEdges" end time: Feb 19 10:28 CET
 "EmptyGraph.addMultipleEdges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1183,7 +1165,7 @@ Test Passed.
 44/56 Test: EmptyGraph.getNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.getNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.getNode" start time: Feb 19 00:45 CET
+"EmptyGraph.getNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1199,10 +1181,10 @@ Note: Google Test filter = EmptyGraph.getNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.10 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.getNode" end time: Feb 19 00:45 CET
+"EmptyGraph.getNode" end time: Feb 19 10:28 CET
 "EmptyGraph.getNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1210,7 +1192,7 @@ Test Passed.
 45/56 Test: EmptyGraph.containsEdge
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.containsEdge" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.containsEdge" start time: Feb 19 00:45 CET
+"EmptyGraph.containsEdge" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1226,10 +1208,10 @@ Note: Google Test filter = EmptyGraph.containsEdge
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.containsEdge" end time: Feb 19 00:45 CET
+"EmptyGraph.containsEdge" end time: Feb 19 10:28 CET
 "EmptyGraph.containsEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1237,7 +1219,7 @@ Test Passed.
 46/56 Test: EmptyGraph.removeNode
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.removeNode" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.removeNode" start time: Feb 19 00:45 CET
+"EmptyGraph.removeNode" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1253,10 +1235,10 @@ Note: Google Test filter = EmptyGraph.removeNode
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.removeNode" end time: Feb 19 00:45 CET
+"EmptyGraph.removeNode" end time: Feb 19 10:28 CET
 "EmptyGraph.removeNode" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1264,7 +1246,7 @@ Test Passed.
 47/56 Test: EmptyGraph.removeEdge
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.removeEdge" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.removeEdge" start time: Feb 19 00:45 CET
+"EmptyGraph.removeEdge" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1280,10 +1262,10 @@ Note: Google Test filter = EmptyGraph.removeEdge
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.removeEdge" end time: Feb 19 00:45 CET
+"EmptyGraph.removeEdge" end time: Feb 19 10:28 CET
 "EmptyGraph.removeEdge" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1291,7 +1273,7 @@ Test Passed.
 48/56 Test: EmptyGraph.nodeCount
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.nodeCount" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.nodeCount" start time: Feb 19 00:45 CET
+"EmptyGraph.nodeCount" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1307,10 +1289,10 @@ Note: Google Test filter = EmptyGraph.nodeCount
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.nodeCount" end time: Feb 19 00:45 CET
+"EmptyGraph.nodeCount" end time: Feb 19 10:28 CET
 "EmptyGraph.nodeCount" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1318,7 +1300,7 @@ Test Passed.
 49/56 Test: EmptyGraph.edgeCount
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.edgeCount" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.edgeCount" start time: Feb 19 00:45 CET
+"EmptyGraph.edgeCount" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1334,10 +1316,10 @@ Note: Google Test filter = EmptyGraph.edgeCount
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.edgeCount" end time: Feb 19 00:45 CET
+"EmptyGraph.edgeCount" end time: Feb 19 10:28 CET
 "EmptyGraph.edgeCount" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1345,7 +1327,7 @@ Test Passed.
 50/56 Test: EmptyGraph.nodeDegree
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.nodeDegree" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.nodeDegree" start time: Feb 19 00:45 CET
+"EmptyGraph.nodeDegree" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1361,10 +1343,10 @@ Note: Google Test filter = EmptyGraph.nodeDegree
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.nodeDegree" end time: Feb 19 00:45 CET
+"EmptyGraph.nodeDegree" end time: Feb 19 10:28 CET
 "EmptyGraph.nodeDegree" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1372,7 +1354,7 @@ Test Passed.
 51/56 Test: EmptyGraph.graphDegree
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.graphDegree" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.graphDegree" start time: Feb 19 00:45 CET
+"EmptyGraph.graphDegree" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1388,10 +1370,10 @@ Note: Google Test filter = EmptyGraph.graphDegree
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.09 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.graphDegree" end time: Feb 19 00:45 CET
+"EmptyGraph.graphDegree" end time: Feb 19 10:28 CET
 "EmptyGraph.graphDegree" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1399,7 +1381,7 @@ Test Passed.
 52/56 Test: EmptyGraph.coloring
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.coloring" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.coloring" start time: Feb 19 00:45 CET
+"EmptyGraph.coloring" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1415,10 +1397,10 @@ Note: Google Test filter = EmptyGraph.coloring
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.coloring" end time: Feb 19 00:45 CET
+"EmptyGraph.coloring" end time: Feb 19 10:28 CET
 "EmptyGraph.coloring" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1426,7 +1408,7 @@ Test Passed.
 53/56 Test: EmptyGraph.clear
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=EmptyGraph.clear" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"EmptyGraph.clear" start time: Feb 19 00:45 CET
+"EmptyGraph.clear" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1442,10 +1424,10 @@ Note: Google Test filter = EmptyGraph.clear
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"EmptyGraph.clear" end time: Feb 19 00:45 CET
+"EmptyGraph.clear" end time: Feb 19 10:28 CET
 "EmptyGraph.clear" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1453,7 +1435,7 @@ Test Passed.
 54/56 Test: Edges.equal
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=Edges.equal" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"Edges.equal" start time: Feb 19 00:45 CET
+"Edges.equal" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1469,10 +1451,10 @@ Note: Google Test filter = Edges.equal
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"Edges.equal" end time: Feb 19 00:45 CET
+"Edges.equal" end time: Feb 19 10:28 CET
 "Edges.equal" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1480,7 +1462,7 @@ Test Passed.
 55/56 Test: Edges.nonEqual
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=Edges.nonEqual" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"Edges.nonEqual" start time: Feb 19 00:45 CET
+"Edges.nonEqual" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1496,10 +1478,10 @@ Note: Google Test filter = Edges.nonEqual
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"Edges.nonEqual" end time: Feb 19 00:45 CET
+"Edges.nonEqual" end time: Feb 19 10:28 CET
 "Edges.nonEqual" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -1507,7 +1489,7 @@ Test Passed.
 56/56 Test: Edges.toStringStream
 Command: "/mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/tdd_test" "--gtest_filter=Edges.toStringStream" "--gtest_also_run_disabled_tests"
 Directory: /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build
-"Edges.toStringStream" start time: Feb 19 00:45 CET
+"Edges.toStringStream" start time: Feb 19 10:28 CET
 Output:
 ----------------------------------------------------------
 Running main() from /mnt/c/Users/madal/OneDrive/Рабочий стол/IVS/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -1523,11 +1505,11 @@ Note: Google Test filter = Edges.toStringStream
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.10 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"Edges.toStringStream" end time: Feb 19 00:45 CET
+"Edges.toStringStream" end time: Feb 19 10:28 CET
 "Edges.toStringStream" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Feb 19 00:45 CET
+End testing: Feb 19 10:28 CET

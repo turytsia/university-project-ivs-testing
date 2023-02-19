@@ -40,7 +40,7 @@ Node *Graph::addNode(size_t nodeId)
             return nullptr;
     }
 
-    Node *node = (Node *)calloc(1, sizeof(Node));
+    Node *node = new Node();
     if (node == nullptr)
     {
         std::cerr << "Allocation Error" << std::endl;
@@ -109,7 +109,8 @@ bool Graph::containsEdge(const Edge &edge) const
 
 void Graph::removeNode(size_t nodeId)
 {
-    if (this->getNode(nodeId) == nullptr)
+    Node *node_ptr;
+    if ((node_ptr = this->getNode(nodeId)) == nullptr)
         throw std::out_of_range("uzel s daným id v grafu neexistuje");
 
     std::vector<Edge> edges;
@@ -128,6 +129,7 @@ void Graph::removeNode(size_t nodeId)
     }
 
     this->graph_nodes = nodes;
+    free(node_ptr);
 }
 
 void Graph::removeEdge(const Edge &edge)
@@ -169,7 +171,7 @@ size_t Graph::nodeDegree(size_t nodeId) const
             return degree;
         }
     }
-    
+
     throw std::out_of_range("uzel s daným id v grafu neexistuje");
 }
 

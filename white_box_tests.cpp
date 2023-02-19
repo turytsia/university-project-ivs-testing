@@ -56,8 +56,11 @@ TEST_F(EmptyHashMap, Remove)
 {
     EXPECT_EQ(hash_map_remove(map, "test"), KEY_ERROR);
     EXPECT_EQ(hash_map_put(map, "test", 1), OK);
+    EXPECT_EQ(hash_map_put(map, "test1", 2), OK);
+    EXPECT_EQ(hash_map_put(map, "test2", 3), OK);
+    EXPECT_EQ(hash_map_size(map), 3);
     EXPECT_EQ(hash_map_remove(map, "test"), OK);
-    EXPECT_EQ(hash_map_size(map), 0); //Shouldn't this method be true??
+    EXPECT_EQ(hash_map_size(map), 3);
 }
 
 TEST_F(EmptyHashMap, Pop)
@@ -66,7 +69,7 @@ TEST_F(EmptyHashMap, Pop)
     EXPECT_EQ(hash_map_put(map, "test", 1), OK);
     EXPECT_EQ(hash_map_pop(map, "test",&value), OK);
     EXPECT_EQ(value, 1);
-    EXPECT_EQ(hash_map_size(map), 0); //this one should be 0 too I guess
+    EXPECT_EQ(hash_map_size(map), 1);
 }
 
 TEST_F(EmptyHashMap, Contains)
